@@ -1,0 +1,12 @@
+python -m pip install statsmodels
+jupyter nbextension enable --py --sys-prefix ipyleaflet
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable init_cell/main
+jupyter labextension install @jupyterlab/plotly-extension
+jupyter labextension install @jupyter-voila/jupyterlab-preview
+jupyter labextension install jupyterlab_iframe
+jupyter serverextension enable --py jupyterlab_iframe
