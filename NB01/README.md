@@ -114,8 +114,8 @@ source activate datvis36
 
 Clone this repository and navigate into it:
 ```
-git clone https://github.com/agahkarakuzu/datavis_edu.git
-cd datavis_edu
+git clone https://github.com/FINKI-Research-methodology-in-ICT/Notebooks.git
+cd Notebooks
 ```
 
 Install requirements: 
