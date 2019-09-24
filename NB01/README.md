@@ -99,7 +99,6 @@ Follow the instructions on the `HelloWorld.ipynb` notebook.
 
 
 
-
 Create a new Python 3.6 env: 
 
 ```
