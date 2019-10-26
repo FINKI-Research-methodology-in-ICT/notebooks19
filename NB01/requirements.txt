@@ -9,3 +9,4 @@ voila-vuetify
 ipyleaflet
 jupyterlab_iframe
 jupyter_plotly_dash
+jupyter_contrib_nbextensions
