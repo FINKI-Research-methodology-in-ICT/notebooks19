@@ -114,7 +114,7 @@ source activate datvis36
 Clone this repository and navigate into it:
 ```
 git clone https://github.com/FINKI-Research-methodology-in-ICT/Notebooks.git
-cd Notebooks
+cd Notebooks/NB01
 ```
 
 Install requirements: 
