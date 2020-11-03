@@ -1,5 +1,5 @@
 # Notebooks
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FINKI-Research-methodology-in-ICT/Notebooks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FINKI-Research-methodology-in-ICT/notebooks/HEAD)
 
 Collection of Jupyter Notebooks. Enviroment has: 
 - Octave (<code><version 4.2.2</code>)
