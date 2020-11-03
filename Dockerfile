@@ -61,10 +61,10 @@ RUN cd $HOME/work;\
                 dash-renderer \
                 flask; \
     python -m sos_notebook.install;\
-    git clone -b master --single-branch https://github.com/FINKI-Research-methodology-in-ICT/Notebooks.git; \
-    cd Notebooks;\
-    chmod -R 777 $HOME/work/Notebooks;
+    git clone -b master --single-branch https://github.com/FINKI-Research-methodology-in-ICT/notebooks.git; \
+    cd notebooks;\
+    chmod -R 777 $HOME/work/notebooks;
 
-WORKDIR $HOME/work/Notebooks
+WORKDIR $HOME/work/notebooks
 
 USER $NB_UID
