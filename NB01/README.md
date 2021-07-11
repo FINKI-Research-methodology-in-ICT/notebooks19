@@ -2,13 +2,13 @@
 
 ## What is the Jupyter Notebook? 
 
-Jupyter Notebooks (JN) are interactive development interfaces that can use multiple programming languages. They are eventful and lively digital documents that allow you to combine `live code`, `code outputs`, `narrative text`, `visualizations` and even `interactive widgets` in one place. Sounds like a useful medium to create and share self explanatory dynamic documents for your work right?
+Jupyter Notebooks (JN) are web browser-based interactive development interfaces that can use multiple programming languages. They are eventful and lively digital documents that allow you to combine `code`, `text`, `visualizations` and even `interactive widgets` in one place. Sounds like a useful medium to create and share self-explanatory dynamic documents for your work, right?
 
-Keep in mind that Jupyter Notebooks are just one of the outer layers of the planet JUPYTER. It is founded by Fernando Perez in 2014 to support interactive data science and scientific computing across all programming languages through open source software. You can read [this Wiki](https://en.wikipedia.org/wiki/Project_Jupyter) for more information on `Project Jupyter`. 
+Keep in mind that Jupyter Notebooks are just one of the outer layers of the planet JUPYTER. It was founded by Fernando Perez in 2014 to support interactive data science and scientific computing across all programming languages through open-source software. You can read [this Wiki](https://en.wikipedia.org/wiki/Project_Jupyter) for more information on `Project Jupyter`. 
 
 The name Jupyter is an acronym for 3 programming languages (**Ju**lia-**Pyt**hon-**R**). Today about 100 languages are accessible via JN! Off all the languages a JN can support, `Python` constitutes the backbone of its core technology. **Therefore, to have JN, first you need to have Python installed on your personal computer.**  
 
-Depending on your operating system, there are several ways of installing Python. For this course, we will stick with one of the most famous Python distributions: `Anaconda`. It is cross platform compatible and comes with several Jupyter tools, including JN. 
+Depending on your operating system, there are several ways of installing Python. For this course, we will stick with one of the most widely-used Python distributions: `Anaconda`. It is cross platform compatible and comes with several Jupyter tools, including JN. 
 
 ### STEP-1: Install Anaconda 
 ***
@@ -19,11 +19,11 @@ Visit [the offical Anaconda website](https://www.anaconda.com/distribution/) and
 
 ![](os_select.png)
 
-Next, download the **Python 3.7 version** graphical installer for your OS. Please pay attention to choose the correct option (32 or 64 bit) for your PC:
+Next, download and run the **Python 3.7 version** graphical installer for your OS. Please pay attention to choose the correct option (32 or 64 bit) for your computer (if you're unsure, try 64 bit):
 
 ![](version_select.png)
 
-Graphical installer will guide you through neccesary steps to complete the installation.
+The graphical installer will guide you through neccesary steps to complete the installation.
 
 ### STEP-2: Download or `Clone` the Notebooks repository
 *** 
@@ -34,14 +34,15 @@ You can [use this link](https://github.com/FINKI-Research-methodology-in-ICT/Not
 
 #### Option-2: Clone
 
-If you don't know how to use `git`, you may want to refer to to this [joyful webpage](https://swcarpentry.github.io/git-novice/). 
+If you don't know how to use `git`, you may want to refer to to this [great introduction about this topic](https://swcarpentry.github.io/git-novice/). 
 
-If you are comfortable with using `git`, open a terminal, navigate to a folder where you would like to place `FINKI-Research-methodology-in-ICT/Notebooks` repository. Next, run the following: 
+If you are comfortable with using `git`, open a terminal on your operating system (Windows users: use the Anaconda terminal and first run `conda install -c anaconda git`)), and navigate to the folder where you would like to place `FINKI-Research-methodology-in-ICT/Notebooks` repository. Next, run the following: 
 
 ```
 git clone https://github.com/FINKI-Research-methodology-in-ICT/Notebooks.git
 ```
-Congrats! You've cloned the repository. You can stay up-to-date with the changes made to the repository by the instructors by simply `git pull`. 
+
+Congrats! You've cloned the repository. You can stay up-to-date with the changes made to the repository by the instructors by simply using the command `git pull`. 
 
 ### STEP-3: Open the first JN  
 *** 
@@ -60,14 +61,14 @@ You should see a symbol (*) next to the `base` environment:
 
 ![](conda_env.png)
 
-> Note: If you already know how to work with Anaconda environments, do not forget switching to the `base` by running `source activate base` command. 
+> Note: If you already know how to work with Anaconda environments, do not forget switching to the `base` by running `conda activate base` command.
 
 **ii) Navigate to the directory where you have the `FINKI-Research-methodology-in-ICT/Notebooks` repository and open the notebook**
 
-The `...` part in the following command MUST be replaced with the corresponding directory on your PC:
+The `(PATH)` part in the following command MUST be replaced with the corresponding directory on your PC:
 
 ```
-cd .../Notebooks/NB01
+cd (PATH)/Notebooks/NB01
 ls
 ```
 
@@ -79,7 +80,7 @@ Run the following command to open `HelloWorld.ipynb` notebook:
 jupyter notebook HelloWorld.ipynb
 ```
 
-The command above should open the notebook in your default web browser (e.g. Chrome or Firefox). By default notebooks are run on `http://localhost:8888/`. If your notebook is not opened automatically, visit `http://localhost:8888/` on your web browser, and copy paste the `token` appears on your terminal to the text box to open the notebook: 
+The command above should open the notebook in your default web browser (e.g. Chrome or Firefox). By default, notebooks are run on `http://localhost:8888/`. If your notebook did not open automatically, visit `http://localhost:8888/` on your web browser, and copy paste the `token` appears on your terminal to the text box to open the notebook: 
 
 > `Token` is the long hash followed by `token=` in the following example: 
 
